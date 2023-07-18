@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+  margin-top: 3vh;
+  font-size: 22px;
+  padding-bottom: 3vh;
+  color: #fff;
+  text-shadow: 6px 3px 6px rgba(141, 16, 234, 1);
+  font-family: 'Belanosima', sans-serif;
+}
+
+body{
+  background: rgba(43, 56, 173, 0.74);
+  background: radial-gradient(circle, rgba(69, 6, 105, 0.479) 16%, rgba(104, 184, 153, 0.87) 93%);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  max-width: 24vw;
+  height: 68vh;
+  margin: 0 38vw;
+  border: 1px solid #00000056;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  box-shadow: rgba(169, 46, 240, 0.4) 5px 5px, rgba(208, 46, 240, 0.3) 10px 10px, rgba(195, 46, 240, 0.2) 15px 15px, rgba(217, 46, 240, 0.1) 20px 20px, rgba(179, 46, 240, 0.05) 25px 25px;
+}
+
+.container form input{
+  display: block;
+  /* margin-bottom: 4vh; */
+  width: 20vw;
+  height: 4vh;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.container form input:first-of-type{
+  margin-top: 6vh;
+}
+
+.container form input:last-of-type{
+  margin: 1.5vh 0;
+}
+
+.container form input::placeholder{
+  text-align: center;
+}
+
+.container form button{
+  width: 10vw;
+  height: 4vh;
+  margin: 0 5vw;
+  font-size: 18px;
+  background-color: #a693ee;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container form button:hover{
+  background-color: #480c79;
+  color: #fff;
+  transition: 750ms;
+  box-shadow: rgba(60, 226, 115, 0.4) 0px 5px, rgba(45, 202, 110, 0.3) 0px 10px, rgba(46, 240, 120, 0.2) 0px 15px, rgba(46, 240, 104, 0.1) 0px 20px, rgba(46, 240, 120, 0.05) 0px 25px;
+}
+
+.error{
+  font-size: 20px;
+  color: rgba(71, 16, 8, 0.973);
+  margin: 1.5vh 0;
+}
