@@ -1,0 +1,1 @@
+function dividir(i,n){return i/n}
